@@ -33,7 +33,7 @@ const Projects = () => {
                 <div className="card-actions justify-end">
                   <Link
                     to={`/project-details/${project.id}`}
-                    className="btn btn-primary text-white"
+                    className="bg-primary text-white px-6 py-3 rounded-md shadow-md hover:bg-secondary transition duration-300"
                   >
                     View More
                   </Link>

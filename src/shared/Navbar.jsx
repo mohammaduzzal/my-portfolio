@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -11,6 +12,7 @@ const Navbar = () => {
 
           {/* Navigation Links */}
           <div className="hidden md:flex space-x-6">
+            <Link to='/' className="hover:text-secondary">Home</Link>
             <a href="#about" className="hover:text-secondary">About</a>
             <a href="#projects" className="hover:text-secondary">Projects</a>
             <a href="#skills" className="hover:text-secondary">Skills</a>

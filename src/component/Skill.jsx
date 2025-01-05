@@ -15,7 +15,7 @@ const Skill = () => {
             className="text-3xl font-Montserrat font-bold text-primary text-center"
             initial={{ x: -100 }}
             animate={{ x: 0 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 1 }}
           >
             My Skills
           </motion.h2>
@@ -26,7 +26,7 @@ const Skill = () => {
               className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 2 }}
             >
               <img src={htmlLogo} alt="HTML" className="w-20 mx-auto mb-4"/>
               <h3 className="text-xl font-semibold text-primary text-center">HTML</h3>
@@ -36,7 +36,7 @@ const Skill = () => {
               className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.2 }}
+              transition={{ duration: 2, delay: 0.8 }}
             >
               <img src={cssLogo} alt="CSS" className="w-20 mx-auto mb-4"/>
               <h3 className="text-xl font-semibold text-primary text-center">CSS</h3>
@@ -46,7 +46,7 @@ const Skill = () => {
               className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.4 }}
+              transition={{ duration: 2, delay: 0.9 }}
             >
               <img src={jsLogo} alt="JavaScript" className="w-20 mx-auto mb-4"/>
               <h3 className="text-xl font-semibold text-primary text-center">JavaScript</h3>
@@ -57,7 +57,7 @@ const Skill = () => {
               className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.6 }}
+              transition={{ duration: 2, delay: 0.9 }}
             >
               <img src={reactLogo} alt="React" className="w-20 mx-auto mb-4"/>
               <h3 className="text-xl font-semibold text-primary text-center">React</h3>
@@ -67,7 +67,7 @@ const Skill = () => {
               className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.8 }}
+              transition={{ duration: 2, delay: 0.9 }}
             >
               <img src={nodeLogo} alt="Node.js" className="w-20 mx-auto mb-4"/>
               <h3 className="text-xl font-semibold text-primary text-center">Node.js</h3>
@@ -77,7 +77,7 @@ const Skill = () => {
               className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 1 }}
+              transition={{ duration: 2, delay: 2 }}
             >
               <img src={mongoLogo} alt="Express.js" className="w-20 mx-auto mb-4"/>
               <h3 className="text-xl font-semibold text-primary text-center">Express.js</h3>

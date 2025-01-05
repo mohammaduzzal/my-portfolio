@@ -1,3 +1,4 @@
+import { div } from "framer-motion/client";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
@@ -9,12 +10,13 @@ const ProjectDetails = () => {
         fetch('/projects.json')
         .then(res => res.json())
         .then(data =>{
-            const selectedProject = data.find(project => project.id == id)
+            const selectedProject = data.find(project => project.id === Number(id))
             setProject(selectedProject)
         })
-    },[])
+    },[id])
     console.log(project);
     console.log(id);
+    if(!project) return <span className="loading loading-infinity loading-lg"></span>
 
     return (
         <section id="project-details" className="py-16 bg-base-100 text-neutral">

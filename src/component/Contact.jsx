@@ -9,18 +9,18 @@ const Contact = () => {
   
           {/* Contact Details */}
           <div className="mt-8 space-y-6">
-            <div className="flex justify-center items-center space-x-4">
-              <div className="flex items-center space-x-2">
+            <div className="grid grid-cols-1 md:grid-cols-3">
+              <div className="flex items-center justify-center space-x-2">
                 <i className="fas fa-envelope text-xl text-primary"></i>
                 <a href="mailto:brightphero009@gmail.com" className="text-lg text-neutral">
                   brightphero009@gmail.com
                 </a>
               </div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center justify-center space-x-2">
                 <i className="fas fa-phone-alt text-xl text-primary"></i>
                 <span className="text-lg text-neutral">+8801791098041</span>
               </div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center justify-center space-x-2">
                 <i className="fab fa-whatsapp text-xl text-green-500"></i>
                 <a
                   href="https://wa.me/+8801791098041"
